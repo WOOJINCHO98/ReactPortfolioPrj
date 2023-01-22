@@ -1,0 +1,150 @@
+/* --------- */
+/*  Wave */
+/* --------- */
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* --------- */
+/* TypeWriter */
+/* --------- */
+
+
+
+
+
+/* --------- */
+/*  Preloader */
+/* --------- */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: #ebebeb;
+    background-image: url(./Assets/pre.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#preloader-none {
+    opacity: 0;
+}
+
+#no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+/* --------- */
+/*  Navbar */
+/* --------- */
+.navbar {
+    background-color: #ebebeb;
+    padding: 0;
+    margin: 10;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar .navbar-brand {
+    color: #000;
+}
+
+.navbar .navbar-brand:hover {
+    color: #000;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.navbar .navbar-nav .nav-link:focus {
+    color: #000;
+}
+
+.navbar .navbar-nav .nav-link:active {
+    color: #000;
+}
+
+.navbar .navbar-nav .nav-link:visited {
+    color: #000;
+}
+
+.navbar .navbar-nav .nav-link:link {
+    color: #000;
+}
+
+
+/* --------- */
+/*  Footer */
+/* --------- */
+
+.footer {
+    background-color: #ebebeb;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
