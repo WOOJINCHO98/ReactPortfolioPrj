@@ -3,15 +3,13 @@ import GitHubCalendar from "react-github-calendar";
 
 function GithubCal() {
     return (
-        <div>
         <GitHubCalendar 
             username="WOOJINCHO98"
-            blockSize={12}
+            blockSize={13}
             blockMargin={4}
             color="#EB6200"
             fontSize={11}
             blockRadius={6}
-
             hideTotalCount={true}
             style={{
             boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.5)',
@@ -19,7 +17,6 @@ function GithubCal() {
             padding: '20px'
             }}
         />
-        </div>
     );
     }
 

@@ -55,6 +55,27 @@
 /* --------- */
 
 
+.Typewriter__wrapper {
+    font-size: 2.2em !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #000 !important;
+  }
+  
+  @media (max-width: 767px) {
+    .Typewriter__wrapper {
+      font-size: 1.4em !important;
+      font-weight: 500 !important;
+      position: absolute !important;
+    }
+    .Typewriter__cursor {
+      display: none !important;
+    }
+  }
+
 
 
 
@@ -99,6 +120,7 @@
     transition: all 0.5s ease-in-out;
 }
 
+
 .navbar .navbar-brand {
     color: #000;
 }
@@ -133,6 +155,28 @@
 
 
 /* --------- */
+/*  Waving */
+/* --------- */
+
+.CanvasContainer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    float: center;
+}
+
+/* --------- */
+/*  Calendar */
+/* --------- */
+
+.calendar {
+    float: center;
+}
+
+
+
+/* --------- */
 /*  Footer */
 /* --------- */
 
@@ -148,3 +192,5 @@
     transition: all 0.5s ease-in-out;
     text-align: center;
 }
+
+
