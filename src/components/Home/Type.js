@@ -7,12 +7,14 @@ function Type() {
         options={{
             strings: [
             "적응 하는",
-            "무엇 하는...",
-            "저것 하는...",
+            "무엇 하는",
+            "저것 하는",
             ],
-            cursor: "ㅣ",
+            cursor: "|",
             autoStart: true,
             loop: true,
+            delay: 60,
+            deleteSpeed: 50,
         }}
         />
     );

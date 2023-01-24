@@ -5,13 +5,12 @@ import ModelAni from './../Waving'
 
 function Waving() {
     return (
-        <div className='CanvasContainer'>
             <Canvas
             className='Canvas'
-            camera={{ position: [2, 2, 12.25], fov: 6 }}
+            camera={{ position: [0, 0, 20], fov: 4 }}
             style={{
                 height: '50vh',
-                width: '50vw',
+                width: '30vw',
             }}
             >
             <ambientLight intensity={0.85} />
@@ -20,7 +19,6 @@ function Waving() {
             <ModelAni position={[0, 0, 0]} />
             <OrbitControls target={[0, 1.2, 0]} enableDamping={true} enableZoom={false}/>
             </Canvas>
-        </div>
     );
 }
 

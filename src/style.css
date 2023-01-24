@@ -1,3 +1,16 @@
+
+p {
+    color: #ebebeb;
+    font-size: large;
+}
+
+.helloworld {
+    color : white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 /* --------- */
 /*  Wave */
 /* --------- */
@@ -54,22 +67,29 @@
 /* TypeWriter */
 /* --------- */
 
-
+.Typewriter {
+    padding-top: 3em;
+    width: 38%;
+    text-align: left;
+    float: right;
+    max-height: 2.2em;
+    position: relative;
+}
 .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #000 !important;
+    color: #ebebeb !important;
     font-weight: 600 !important;
+    
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #000 !important;
+    color: #ebebeb !important;
   }
   
   @media (max-width: 767px) {
     .Typewriter__wrapper {
       font-size: 1.4em !important;
       font-weight: 500 !important;
-      position: absolute !important;
     }
     .Typewriter__cursor {
       display: none !important;
@@ -77,7 +97,17 @@
   }
 
 
+/* --------- */
+/*  TextBox */
+/* --------- */
 
+.textBox {
+    margin: 0;
+    padding-top: 3.4em;
+    width: 100%;
+    text-align: left;
+    
+}
 
 /* --------- */
 /*  Preloader */
@@ -109,7 +139,7 @@
 /*  Navbar */
 /* --------- */
 .navbar {
-    background-color: #ebebeb;
+    background-color: #ef6700;
     padding: 0;
     margin: 10;
     border: 0;
@@ -122,35 +152,35 @@
 
 
 .navbar .navbar-brand {
-    color: #000;
+    color: #ebebeb;
 }
 
 .navbar .navbar-brand:hover {
-    color: #000;
+    color: #ebebeb;
 }
 
 .navbar .navbar-nav .nav-link {
-    color: #000;
+    color: #ebebeb;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    color: #000;
+    color: #ebebeb;
 }
 
 .navbar .navbar-nav .nav-link:focus {
-    color: #000;
+    color: #ebebeb;
 }
 
 .navbar .navbar-nav .nav-link:active {
-    color: #000;
+    color: #ebebeb;
 }
 
 .navbar .navbar-nav .nav-link:visited {
-    color: #000;
+    color: #ebebeb;
 }
 
 .navbar .navbar-nav .nav-link:link {
-    color: #000;
+    color: #ebebeb;
 }
 
 
@@ -158,12 +188,12 @@
 /*  Waving */
 /* --------- */
 
-.CanvasContainer {
+.Canvas {
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    float: center;
+    margin:auto;
 }
 
 /* --------- */
@@ -171,8 +201,12 @@
 /* --------- */
 
 .calendar {
-    float: center;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
+
 
 
 
@@ -181,8 +215,8 @@
 /* --------- */
 
 .footer {
-    background-color: #ebebeb;
-    padding: 0;
+    background-color: #7b4e1a;
+    padding: 1em;
     margin: 0;
     border: 0;
     border-radius: 0;
@@ -191,6 +225,56 @@
     letter-spacing: 0.1rem;
     transition: all 0.5s ease-in-out;
     text-align: center;
+    opacity: 0.8;
 }
 
+
+
+/* --------- */
+/* Projects */
+/* --------- */
+.project-section {
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+}
+
+.project-box {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+}
+
+.project-box-view {
+    box-shadow: 0 4px 5px 3px rgba(232, 227, 220, 0.8) !important;
+    color: #ebebeb !important;
+    font-weight: 600;
+
+    background-color: #252423 !important;
+    opacity: 1 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+}
+.project-box-view:hover {
+    transform: scale(1.04) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgba(239, 228, 212, 1) !important;
+}
+
+.card-img-top {
+    padding: 20px !important;
+    opacity: 0.8 !important;
+    border-radius: 10px !important;
+}
+
+
+.project-heading {
+    color: white !important;
+    font-size: 3.6em !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+}
 
