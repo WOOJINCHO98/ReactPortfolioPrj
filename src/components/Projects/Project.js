@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectsBox from "./ProjectsBox";
 import Accty from "../../Assets/Projects/Accty.png";
@@ -7,7 +8,9 @@ import Dice from "../../Assets/Projects/Dice.png";
 import Sample from "../../Assets/Projects/Sample.png";
 
 function Project() {
-
+  const [visible, setVisible] = React.useState(false);
+  const [visible2, setVisible2] = React.useState(false);
+  
     return (
         <Container fluid className="project-section">
           <Container>
@@ -31,6 +34,8 @@ function Project() {
                     //link="https://github.com/woojincho98/accty"
                     //demoLink="https://chatify-49.web.app/"
                 />
+
+
               </Col>
 
               <Col md={4} className="project-box">
@@ -44,6 +49,13 @@ function Project() {
                     link="https://github.com/woojincho98/accty"
                     demoLink="https://chatify-49.web.app/"
                 />
+
+
+                <button className="showButton" onClick={() => setVisible(true)}>시연 영상</button>
+                <div className="videoBox" style={{display: visible ? 'block' : 'none'}}>
+                  <iframe className="Video" src="https://www.youtube.com/embed/7TWgM2Nl3cA?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <button className="exitButton" onClick={() => setVisible(false)}>X</button>
+                </div>
               </Col>
               <Col md={4} className="project-box" id="NottyBox">
                 <ProjectsBox
@@ -58,6 +70,12 @@ function Project() {
                     demoLink="http://notty.kro.kr/"
                 />
 
+                <button className="showButton" onClick={() => setVisible2(true)}>시연 영상</button>
+                <div className="videoBox" style={{display: visible2 ? 'block' : 'none'}}>
+                  <iframe className="Video" src="https://www.youtube.com/embed/Nngh_gY4L1w?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; " allowfullscreen></iframe>
+                  <button className="exitButton" onClick={() => setVisible2(false)}>X</button>
+                </div>
+              
               </Col>
 
               <Col md={4} className="project-box">
@@ -69,7 +87,7 @@ function Project() {
                     description="액티비티 관련 날씨 앱 입니다. 프로젝트의 팀장, 기획, 개발을 담당하였습니다. Android (Java) 를 사용하여 개발하였습니다. 교내의 캡스톤 디자인 수업에서 진행했던 프로젝트입니다.
                     팀원은 총 3인 으로 구성되었습니다. 수업 연계 캡스톤디자인대회에서 우수상을 수상 하였습니다."
                     link="https://github.com/woojincho98/accty"
-                    demoLink="https://chatify-49.web.app/"
+                    //demoLink="https://chatify-49.web.app/"
                 />
               </Col>
 
@@ -100,5 +118,8 @@ function Project() {
         </Container>
             );
     }
+
+const root = document.querySelector('#root');
+ReactDOM.render(<Project />, root );
 
 export default Project;

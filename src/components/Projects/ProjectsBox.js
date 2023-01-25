@@ -5,7 +5,6 @@ import Button from "react-bootstrap/Button";
 function ProjectsBox(props) {
 
     return (
-        
         <Card className="project-box-view">
             <Card.Header>{props.header}</Card.Header>
             <Card.Img variant="top" src={props.imgPath} alt="card-img" />
