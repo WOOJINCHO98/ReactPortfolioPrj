@@ -7,16 +7,7 @@ p {
     
 }
 
-.helloworld {
-    color : white;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 20%;
-    font-family: "LINESeedKR-Bd";
-    font-size: 4em;
-    font-weight: 700;
-}
+
 
 /* --------- */
 /*  Preloader */
@@ -41,106 +32,6 @@ p {
 #no-scroll {
     overflow: hidden;
     height: 100vh;
-}
-
-/* --------- */
-/*  Wave */
-/* --------- */
-
-.wave {
-    animation-name: wave-animation;
-    /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.1s;
-    /* Change to speed up or slow down */
-    animation-iteration-count: infinite;
-    /* Never stop waving :) */
-    transform-origin: 70% 70%;
-    /* Pivot around the bottom-left palm */
-    display: inline-block;
-}
-
-@keyframes wave-animation {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    10% {
-        transform: rotate(14deg);
-    }
-
-    /* The following five values can be played with to make the waving more or less extreme */
-    20% {
-        transform: rotate(-8deg);
-    }
-
-    30% {
-        transform: rotate(14deg);
-    }
-
-    40% {
-        transform: rotate(-4deg);
-    }
-
-    50% {
-        transform: rotate(10deg);
-    }
-
-    60% {
-        transform: rotate(0deg);
-    }
-
-    /* Reset for the last half to pause */
-    100% {
-        transform: rotate(0deg);
-    }
-}
-
-/* --------- */
-/* TypeWriter */
-/* --------- */
-
-.Typewriter {
-    padding-top: 6.65em;
-    width: 40%;
-    text-align: left;
-    float: right;
-    max-height: 2.2em;
-    position: relative;
-}
-.Typewriter__wrapper {
-    font-size: 2.8em !important;
-    color: #ebebeb !important;
-    font-weight: 600 !important;
-    font-family: "LINESeedKR-Bd";
-  }
-  .Typewriter__cursor {
-    font-size: 2.4em !important;
-    color: #ebebeb !important;
-  }
-  
-  @media (max-width: 767px) {
-    .Typewriter__wrapper {
-      font-size: 1.4em !important;
-      font-weight: 500 !important;
-    }
-    .Typewriter__cursor {
-      display: none !important;
-    }
-  }
-
-
-/* --------- */
-/*  TextBox */
-/* --------- */
-
-.textBox {
-    font-size: 2.2em !important;
-    margin: 0;
-    padding-top: 3.4em;
-    width: 100%;
-    text-align: left;
-    font-family: "LINESeedKR-Bd";
-
 }
 
 
@@ -199,12 +90,127 @@ p {
 
 
 
+.helloworld {
+    color : white;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-right: 20%;
+    font-family: "LINESeedKR-Bd";
+    font-size: 4.3em;
+    font-weight: 700;
+}
+
+
 /* --------- */
-/*  Waving */
+/*  Wave */
+/* --------- */
+
+
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* --------- */
+/* TypeWriter */
+/* --------- */
+
+.Typewriter {
+    padding-top: 2.25em;
+    width: 40%;
+    text-align: left;
+    float: right;
+    max-height: 2.2em;
+    position: relative;
+}
+.Typewriter__wrapper {
+    font-size: 2.8em !important;
+    color: #ebebeb !important;
+    font-weight: 600 !important;
+    font-family: "LINESeedKR-Bd";
+  }
+  .Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #ebebeb !important;
+  }
+  
+  @media (max-width: 767px) {
+    .Typewriter__wrapper {
+      font-size: 1.4em !important;
+      font-weight: 500 !important;
+    }
+    .Typewriter__cursor {
+      display: none !important;
+    }
+  }
+
+
+/* --------- */
+/*  TextBox */
+/* --------- */
+
+.textBox {
+    font-size: 2.2em !important;
+    margin: 0;
+    padding-top: 1.4em;
+    width: 100%;
+    text-align: left;
+    font-family: "LINESeedKR-Bd";
+
+}
+
+
+
+/* --------- */
+/*  .Canvas  */
 /* --------- */
 
 .Canvas {
-    top: 0;
+    top: -4em;
     left: 0;
     width: 100%;
     height: 100%;
@@ -218,6 +224,7 @@ p {
 .calendar {
     width: 100%;
     margin: auto;
+    margin-top: -4em;
     align-items: center;
     justify-content: center;
 }
@@ -261,22 +268,24 @@ p {
     padding-left: 25px !important;
     padding-right: 25px !important;
     height: auto !important;
+    position: relative;
 }
 
 .project-box-view {
     box-shadow: 0 4px 5px 3px rgba(232, 227, 220, 0.8) !important;
     color: #ebebeb !important;
     font-weight: 600;
-
     background-color: #252423 !important;
     opacity: 1 !important;
-    transition: all 0.5s ease 0s !important;
     height: 100% !important;
+    transition: all 0.5s ease 0s !important;
+
 }
 .project-box-view:hover {
     transform: scale(1.04) !important;
     overflow: hidden !important;
     box-shadow: 0 4px 4px 5px rgba(239, 228, 212, 1) !important;
+    z-index: 1001 !important;
 }
 
 .card-img-top {
@@ -291,6 +300,22 @@ p {
     font-size: 3.6em !important;
     font-weight: 500 !important;
     padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    text-align: center !important;
+    font-family: "LINESeedKR-Bd";
+}
+.project-subhead {
+    color: white !important;
+    font-size: 1.5em !important;
+    font-weight: 200 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    text-align: center !important;
+    font-family: "LINESeedKR-Bd";
 }
 
 .videoBox {
@@ -313,9 +338,9 @@ p {
     height: 95%;
 }
 .showButton {
-    width: 100%;
-    top: 5%;
-    left: 5%;
+    width: 88%;
+    top: 85%;
+    left: 6%;
     margin-top: 0.8em;
     color: #ebebeb;
     background-color: #252423 !important;
@@ -324,6 +349,8 @@ p {
     border-radius: 7px;
     transition: all 0.5s ease 0s !important;
     box-shadow: 0 4px 5px 3px rgba(232, 227, 220, 0.8) !important;
+    position: absolute;
+    z-index: 1 !important;
 }
 
 .showButton:hover {

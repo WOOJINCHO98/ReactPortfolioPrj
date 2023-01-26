@@ -25,9 +25,9 @@ function Home() {
           <Col md={4}>
             <div className="textBox">
               <h1 style={{ float: "left", color: "#ebebeb"}}>개발자 조우진입니다.</h1>
-              <br/><br/><br/>
-              <p style={{ float: "left" }}>2021년 5월부터 </p>
-              <p style={{ float: "left" }}>웹 개발.</p>
+              <br/><br/>
+              <p>2021년 5월부터</p>
+              <p>웹 개발에 관심이 있습니다.</p>
             </div>
           </Col>
           <Col md={4}>

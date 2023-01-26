@@ -7,7 +7,7 @@ function Waving() {
     return (
             <Canvas
             className='Canvas'
-            camera={{ position: [0, 0, 20], fov: 4 }}
+            camera={{ position: [2, 1, 20], fov: 4 }}
             style={{
                 height: '50vh',
                 width: '30vw',

@@ -13,11 +13,11 @@ function ProjectsBox(props) {
                 <Card.Text style={{ textAlign: "justify" }}>
                 {props.description}
                 </Card.Text>
-                <Button variant="primary" href={props.link}>
+                <Button variant="primary" href={props.link} target='_blank'>
                     깃허브 바로가기  {props.title}
                 </Button>
 
-                <Button variant="primary" href={props.demoLink}>
+                <Button variant="primary" href={props.demoLink} target='_blank'>
                     데모링크 바로가기  {props.title}
                 </Button>
 
