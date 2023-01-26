@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactPortfolioPrj/static/css/main.e7cb9290.css",
-    "main.js": "/ReactPortfolioPrj/static/js/main.292c2cbd.js",
-    "static/js/787.28cb0dcd.chunk.js": "/ReactPortfolioPrj/static/js/787.28cb0dcd.chunk.js",
-    "static/media/LINESeedKR-Rg.ttf": "/ReactPortfolioPrj/static/media/LINESeedKR-Rg.19963b721fb283e17554.ttf",
-    "static/media/Portfolio.png": "/ReactPortfolioPrj/static/media/Portfolio.7a9bd82f7389cfe77094.png",
-    "static/media/Notty.png": "/ReactPortfolioPrj/static/media/Notty.591033a2f65549fccaf9.png",
-    "static/media/Accty.png": "/ReactPortfolioPrj/static/media/Accty.8d86779c98ad5e6d939c.png",
-    "static/media/Likelion.png": "/ReactPortfolioPrj/static/media/Likelion.1f2b60a9458911451c76.png",
-    "static/media/Dice.png": "/ReactPortfolioPrj/static/media/Dice.54e54b2f18498c14d124.png",
-    "static/media/pre.svg": "/ReactPortfolioPrj/static/media/pre.6011139ec19b80d01bcf.svg",
-    "index.html": "/ReactPortfolioPrj/index.html",
-    "main.e7cb9290.css.map": "/ReactPortfolioPrj/static/css/main.e7cb9290.css.map",
-    "main.292c2cbd.js.map": "/ReactPortfolioPrj/static/js/main.292c2cbd.js.map",
-    "787.28cb0dcd.chunk.js.map": "/ReactPortfolioPrj/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.e529eed6.css",
+    "main.js": "/static/js/main.178fed5a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/LINESeedKR-Rg.ttf": "/static/media/LINESeedKR-Rg.19963b721fb283e17554.ttf",
+    "static/media/Portfolio.png": "/static/media/Portfolio.7a9bd82f7389cfe77094.png",
+    "static/media/Notty.png": "/static/media/Notty.591033a2f65549fccaf9.png",
+    "static/media/Accty.png": "/static/media/Accty.8d86779c98ad5e6d939c.png",
+    "static/media/Likelion.png": "/static/media/Likelion.1f2b60a9458911451c76.png",
+    "static/media/Dice.png": "/static/media/Dice.54e54b2f18498c14d124.png",
+    "static/media/pre.svg": "/static/media/pre.6011139ec19b80d01bcf.svg",
+    "index.html": "/index.html",
+    "main.e529eed6.css.map": "/static/css/main.e529eed6.css.map",
+    "main.178fed5a.js.map": "/static/js/main.178fed5a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7cb9290.css",
-    "static/js/main.292c2cbd.js"
+    "static/css/main.e529eed6.css",
+    "static/js/main.178fed5a.js"
   ]
 }
