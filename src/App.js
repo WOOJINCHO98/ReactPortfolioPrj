@@ -5,6 +5,7 @@ import Preloader from "../src/components/Pre";
 import Home from './components/Home/Home.js';
 import Project from './components/Projects/Project.js';
 import Skills from './components/Skills/Skills';
+import Resume from './components/Resume/Resume';
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
 import './App.css';
@@ -33,6 +34,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Project />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </div>
       <ScrollTop />
