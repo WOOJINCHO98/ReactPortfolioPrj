@@ -7,17 +7,17 @@ function Waving() {
     return (
             <Canvas
             className='Canvas'
-            camera={{ position: [2, 1, 20], fov: 4 }}
+            camera={{ position: [2, 1, 20], fov: 2.4 }}
             style={{
                 height: '50vh',
-                width: '30vw',
+                width: '50vw',
             }}
             >
-            <ambientLight intensity={0.85} />
-            <ambientLight intensity={0.1} />
+            <ambientLight intensity={0.5} />
+            <ambientLight intensity={0.01} />
             <directionalLight intensity={0.5} />
-            <ModelAni position={[0, 0, 0]} />
-            <OrbitControls target={[0, 1.2, 0]} enableDamping={true} enableZoom={false}/>
+            <ModelAni position={[0.25, -0.3, -1]} />
+            <OrbitControls target={[0.25, 1.2, -1]} enableDamping={true} enableZoom={false}/>
             </Canvas>
     );
 }

@@ -1,47 +1,77 @@
 import React from "react";
+import { Container,Row,Col } from "react-bootstrap";
+
+
 import GithubCal from "./GithubCal";
-import HomeDown from "./HomeDown";
+import MediaGithubCal from "./MediaGithubCal";
+import AboutMe from "./AboutMe";
+import Education from "./Education";
 import Type from "./Type";
 import Waving from "./Waving";
-import { Container,Row,Col } from "react-bootstrap";
+
+import {
+  AiFillGithub,
+  AiFillBook,
+  AiFillInstagram,
+} from "react-icons/ai";
+
 function Home() {
   return (
     <div>
-
       <Container fluid>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={12}>
-            <h1 className="helloworld" >"HelloWorld!"
-              <span className="wave">
+            <h1 className="helloworld" >              
+            <span className="wave">
                 👋🏻
-              </span>
+              </span>"HelloWorld!"
+
             </h1>
           </Col>
 
-          <Col md={4}>
-            <Type />
-          </Col>
-          <Col md={4}>
-            <div className="textBox">
-              <h1 style={{ float: "left", color: "#ebebeb"}}>개발자 조우진입니다.</h1>
-              <br/><br/>
-              <p>2021년 5월부터</p>
-              <p>웹 개발에 관심이 있습니다.</p>
+          <Col md={11}>
+            <div className="typeBox">
+              <Type />
             </div>
           </Col>
-          <Col md={4}>
+          <Col md={6}>
+            <div className="textBox">
+              <p className="introText" style={{ float: "left", color: "#ebebeb"}}>개발자 조우진입니다.</p>
+              <br/><br/>
+            </div>
+            
+
+
+            <div class="snsBox">
+        
+              <a href="https://github.com/WOOJINCHO98" target='_blank'  rel="noreferrer" className="icon-colour  home-social-icons"><AiFillGithub /></a>
+              <a href="https://www.instagram.com/cioudi" target='_blank'  rel="noreferrer" className="icon-colour  home-social-icons"><AiFillBook /></a>
+              <a href="https://velog.io/@woojincho98" target='_blank'  rel="noreferrer" className="icon-colour  home-social-icons"><AiFillInstagram /></a>
+                
+
+            </div>
+
+          </Col>
+          <Col md={5}>
             <Waving />
           </Col>
-          <Col xs={6} md={11}>
+          <Col md={11}>
             <div className="calendar">
               <GithubCal />
+            </div>
+            <div className="mediaCalendar">
+            <MediaGithubCal />
             </div>
           </Col>
         </Row>
 
-      
-        <HomeDown />
+        <div className="section">
+        <AboutMe />
+        </div>        
+        <div className="section">
+        <Education />
+        </div>
         </Container>
     </div>
 

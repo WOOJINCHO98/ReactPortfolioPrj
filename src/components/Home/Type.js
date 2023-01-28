@@ -7,8 +7,8 @@ function Type() {
         options={{
             strings: [
             "적응 하는",
-            "무엇 하는",
-            "저것 하는",
+            "꾸준한",
+            "우상향 하는",
             ],
             cursor: "|",
             autoStart: true,

@@ -1,15 +1,16 @@
-
 import React, {useState, useEffect} from 'react';
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Preloader from "../src/components/Pre";
 import Home from './components/Home/Home.js';
 import Project from './components/Projects/Project.js';
+import TechSkill from './components/Skills/TechSkill.js';
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
 import './App.css';
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ScrollTop from "./components/ScrollTop.js"
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -24,16 +25,17 @@ function App() {
 
 
   return (
-    <Router basename='/ReactPortfolioPrj'>
+    <Router>
       <Preloader load={load} />
       <div id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<TechSkill />} />
           <Route path="/projects" element={<Project />} />
         </Routes>
       </div>
-
+      <ScrollTop />
       <Footer />
     </Router>
 
