@@ -1,14 +1,11 @@
 import React from "react";
 import {Container, Col, Row} from "react-bootstrap";
-import {
-    DiReact,
-    DiDjango,
-    DiAndroid,
-    DiHtml5,
-    DiCss3,
-} from "react-icons/di";
 
-function TechSkill() {
+import {SiAmazonaws} from "react-icons/si";
+import {DiGithubBadge, DiVisualstudio} from "react-icons/di";
+import {SiFigma, SiFirebase} from "react-icons/si";
+
+function WorkSkill() {
     return (
         <Container fluid="fluid" className="skill-section">
             <Container>
@@ -18,21 +15,20 @@ function TechSkill() {
                         justifyContent: "center",
                         paddingBottom: "50px"
                     }}>
-
                     <Col xs={4} md={2} className="tech-icons">
-                        <DiHtml5/>
+                        <SiAmazonaws/>
                     </Col>
                     <Col xs={4} md={2} className="tech-icons">
-                        <DiCss3/>
+                        <DiVisualstudio/>
                     </Col>
                     <Col xs={4} md={2} className="tech-icons">
-                        <DiReact/>
+                        <DiGithubBadge/>
                     </Col>
                     <Col xs={4} md={2} className="tech-icons">
-                        <DiDjango/>
+                        <SiFirebase/>
                     </Col>
                     <Col xs={4} md={2} className="tech-icons">
-                        <DiAndroid/>
+                        <SiFigma/>
                     </Col>
                 </Row>
             </Container>
@@ -40,4 +36,4 @@ function TechSkill() {
     );
 }
 
-export default TechSkill;
+export default WorkSkill;

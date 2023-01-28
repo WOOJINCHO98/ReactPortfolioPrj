@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Preloader from "../src/components/Pre";
 import Home from './components/Home/Home.js';
 import Project from './components/Projects/Project.js';
-import TechSkill from './components/Skills/TechSkill.js';
+import Skills from './components/Skills/Skills';
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
 import './App.css';
@@ -31,7 +31,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/skills" element={<TechSkill />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Project />} />
         </Routes>
       </div>
