@@ -662,7 +662,7 @@ pre {
     padding-left: 2% !important;
     padding-right: 2% !important;
     background-color: #252423 !important;
-    z-index: 1000 !important;
+    z-index: 10000 !important;
     opacity: 1;
 }
 
@@ -704,6 +704,21 @@ pre {
     font-weight: 300;
     cursor: pointer;
     border: none;
+}
+
+.card-body {
+    padding: 0.5rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttonContainer {
+    display: inline-flex;
+    bottom: 0%;
+    z-index: 1000;
+    margin: auto;
+    padding: 30px;
 }
 
 /* --------- */

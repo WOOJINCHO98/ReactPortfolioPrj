@@ -18,36 +18,38 @@ function ProjectsBox(props) {
                     }}>
                     {props.description}
                 </Card.Text>
-                <Button
-                    className="btn btn-success btn-lg float-left"
-                    variant="primary"
-                    href={props.link}
-                    target='_blank'
-                    style={{
-                        margin: "0 auto"
-                    }}>
+                <div className="buttonContainer">
+                    <Button
+                        className="btn btn-success "
+                        variant="primary"
+                        href={props.link}
+                        target='_blank'
+                        style={{
+                            margin: "3px",
+                            fontSize: "13px"
+                        }}>
 
-                    <BsGithub/>
-                    &nbsp; Archive
-                </Button>
-                {"\n"}
-                {"\n"}
+                        <BsGithub/>
+                        &nbsp; Archive
+                    </Button>
 
-                {
-                    !props.isBlog && props.demoLink && (
-                        <Button
-                            className="btn btn-success btn-lg float-right"
-                            variant="primary"
-                            href={props.demoLink}
-                            target="_blank"
-                            style={{
-                                margin: "0 auto"
-                            }}>
-                            <CgWebsite/>
-                            &nbsp; {"Demo"}
-                        </Button>
-                    )
-                }
+                    {
+                        props.demoLink && (
+                            <Button
+                                className="btn btn-success"
+                                variant="primary"
+                                href={props.demoLink}
+                                target="_blank"
+                                style={{
+                                    margin: "3px",
+                                    fontSize: "13px"
+                                }}>
+                                <CgWebsite/>
+                                &nbsp; {"Demo"}
+                            </Button>
+                        )
+                    }
+                </div>
             </Card.Body>
         </Card>
     );

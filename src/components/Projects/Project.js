@@ -38,8 +38,10 @@ function Project() {
                             title="멋쟁이 사자처럼 삼육 11기 웹사이트"
                             description="11기 신입 부원들과 함께 사용하기 위해 진행 한 프로젝트입니다. 프론트 작업은 완료 되었습니다. 아직 개발중에 있으며, 배포를 앞두고 있습니다. 백엔드 3인, 프론트엔드 3인팀으로 진행하였습니다. 그 중 프론트엔드를 담당하였습니다. React 를 사용하여 개발하였습니다."
                             link="https://github.com/SYULION11th/likelionpage-front"
-                            demoLink="https://syulion11th.github.io/likelionpage-front"/>
+                            demoLink="https://syulion11th.github.io/likelionpage-front"
+                            test="demo"
 
+                            />
                     </Col>
 
                     <Col md={4} className="project-box">
