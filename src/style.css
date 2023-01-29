@@ -52,9 +52,6 @@ pre {
 /*  Navbar */
 /* --------- */
 
-/* --------- */
-/* Navbar Section  */
-/* --------- */
 .sticky {
     background-color: #1b1a2ea9 !important;
     transition: all 0.3s ease-out 0s !important;
@@ -76,6 +73,7 @@ pre {
 }
 
 .navbar-toggler span {
+    
     display: block !important;
     background-color: #ef6700 !important;
     height: 4px !important;
@@ -122,7 +120,7 @@ pre {
 
 @media (max-width: 767px) {
     .navbar {
-        padding: 1rem 2rem !important;
+        padding: 0.9rem 0.3rem !important;
         font-size: 1.4rem !important;
         background-color: #181a27 !important;
     }
@@ -586,8 +584,8 @@ pre {
     }
     .Period {
         font-size: 10px;
-        margin-top: 9px;
-        margin-bottom: 22px;
+        margin-top: 10px;
+        margin-bottom: 21px;
     }
 }
 
