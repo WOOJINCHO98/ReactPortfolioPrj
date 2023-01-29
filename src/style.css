@@ -562,7 +562,7 @@ pre {
         margin-bottom: 60px;
     }
     .a_link {
-        font-size: 3px;
+        font-size: 10px;
     }
 }
 .periodBox {
@@ -581,8 +581,8 @@ pre {
 
 @media (max-width: 810px) {
     .periodBox {
-        width: 25%;
-        right: -3%;
+        width: 26%;
+        right: -2%;
     }
     .Period {
         font-size: 10px;
