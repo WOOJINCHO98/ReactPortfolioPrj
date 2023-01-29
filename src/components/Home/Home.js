@@ -46,8 +46,8 @@ function Home() {
             <div class="snsBox">
         
               <a href="https://github.com/WOOJINCHO98" target='_blank'  rel="noreferrer" className="icon-colour  home-social-icons"><AiFillGithub /></a>
-              <a href="https://www.instagram.com/cioudi" target='_blank'  rel="noreferrer" className="icon-colour  home-social-icons"><AiFillBook /></a>
-              <a href="https://velog.io/@woojincho98" target='_blank'  rel="noreferrer" className="icon-colour  home-social-icons"><AiFillInstagram /></a>
+              <a href="https://velog.io/@woojincho98" target='_blank'  rel="noreferrer" className="icon-colour  home-social-icons"><AiFillBook /></a>
+              <a href="https://www.instagram.com/cioudi" target='_blank'  rel="noreferrer" className="icon-colour  home-social-icons"><AiFillInstagram /></a>
                 
 
             </div>
