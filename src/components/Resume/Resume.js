@@ -7,10 +7,7 @@ import {Document, Page, pdfjs} from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink = "https://raw.githubusercontent.com/woojincho98/ReactPortfolioPrj/main/" +
-        "Resume.pdf";
-
-// "https://raw.githubusercontent.com/woojincho98/ReactPortfolioPrj/main/src/Assets/Resume.pdf";
+const resumeLink = "https://raw.githubusercontent.com/woojincho98/ReactPortfolioPrj/main/src/Assets/Resume.pdf";
 
 function Resume() {
     const [width, setWidth] = useState(1200);
@@ -35,7 +32,7 @@ function Resume() {
                             maxWidth: "250px"
                         }}>
                         <AiOutlineDownload/>
-                        &nbsp;Download PDF
+                        &nbsp;Download pdf
                     </Button>
                 </Row>
 
