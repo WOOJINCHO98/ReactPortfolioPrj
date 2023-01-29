@@ -50,7 +50,9 @@ function Project() {
                             header="2023.01.24 ~ ing"
                             title="포트폴리오 웹사이트 (현재 사이트)"
                             description="포트폴리오 웹사이트 입니다. React 를 사용하여 개발하였습니다."
-                            link="https://github.com/WOOJINCHO98/ReactPortfolioPrj.git"/>
+                            link="https://github.com/WOOJINCHO98/ReactPortfolioPrj.git"
+                            demoLink="http://woojincho@kro.kr"/>
+
                     </Col>
 
                     <Col md={4} className="project-box">
