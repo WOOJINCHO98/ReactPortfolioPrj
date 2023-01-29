@@ -337,6 +337,14 @@ pre {
     padding-left: 5.5em;
     margin-top: 3em;
 }
+@media (max-width: 767px) {
+    .snsBox {
+        margin-bottom: 60px;
+            padding-left: 5.5em;
+
+    }
+
+}
 
 .home-social-icons {
     position: relative !important;
@@ -416,7 +424,7 @@ pre {
 @media (max-width: 767px) {
     .Canvas {
         width: 300px;
-        padding-top: 5em;
+        padding-top: 1em;
     }
 }
 
@@ -573,8 +581,8 @@ pre {
 
 @media (max-width: 810px) {
     .periodBox {
-        width: 30%;
-        right: -6%;
+        width: 25%;
+        right: -3%;
     }
     .Period {
         font-size: 8px;
