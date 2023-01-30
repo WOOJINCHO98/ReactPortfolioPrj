@@ -912,7 +912,7 @@ pre {
     letter-spacing: 0.1rem;
     text-align: center;
     opacity: 0.9;
-    z-index: 999999;
+    z-index: 9999;
 }
 
 .ScrollButton {
