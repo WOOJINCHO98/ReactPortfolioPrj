@@ -73,7 +73,7 @@ function Project() {
                     팀원은 총 3인 으로 구성되었습니다. 수업 연계 캡스톤디자인대회에서 우수상을 수상 하였습니다."
                             link="https://github.com/woojincho98/accty"/>
 
-                        <button className="showButton" onClick={() => setVisible(true)}>시연 영상</button>
+                        <button className="showButton" onClick={() => setVisible(true)}>VIDEO</button>
                         <div
                             className="videoBox"
                             style={{
@@ -101,7 +101,7 @@ function Project() {
                             link="https://github.com/woojincho98/nottybuild"
                             demoLink="http://notty.kro.kr/"/>
 
-                        <button className="showButton" onClick={() => setVisible2(true)}>시연 영상</button>
+                        <button className="showButton" onClick={() => setVisible2(true)}>VIDEO</button>
                         <div
                             className="videoBox"
                             style={{

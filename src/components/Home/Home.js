@@ -21,7 +21,7 @@ function Home() {
       <Container fluid>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={12}>
+          <Col md={11}>
             <h1 className="helloworld" >              
             <span className="wave">
                 👋🏻
