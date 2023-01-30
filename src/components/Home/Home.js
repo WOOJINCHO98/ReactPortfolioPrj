@@ -18,7 +18,7 @@ import {
 function Home() {
   return (
     <div>
-      <Container fluid>
+      <Container fluid className="me-section">
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={11}>

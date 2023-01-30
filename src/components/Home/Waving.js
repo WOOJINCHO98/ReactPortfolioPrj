@@ -9,8 +9,8 @@ function Waving() {
             className='Canvas'
             camera={{ position: [2, 1, 20], fov: 2.4 }}
             style={{
-                height: '50vh',
-                width: '50vw',
+                height: '400px',
+                width: '400px',
             }}
             >
             <ambientLight intensity={0.5} />

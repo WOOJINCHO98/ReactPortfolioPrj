@@ -11,11 +11,11 @@ function Education() {
 
     <Container>
     <Row style={{ justifyContent: "center", paddingTop: "100px"  , paddingBottom: "100px" }}>
-    <Col md={12}>
+    <Col md={10}>
       <h1 className="Title">Education & Experience</h1>
     </Col>
 
-    <Col md={12}>
+    <Col md={10}>
       <div className="eduBox">
         <div className="eduTextBox">
           <a className="eduText a_link" href="https://www.likelion.net/" target="_blank" rel="noreferrer" >멋쟁이 사자처럼 11기 운영진 </a>

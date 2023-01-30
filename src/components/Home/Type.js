@@ -6,9 +6,9 @@ function Type() {
         <Typewriter
         options={{
             strings: [
-            "적응 하는",
+            "적응하는",
             "꾸준한",
-            "우상향 하는",
+            "우상향하는",
             ],
             cursor: "|",
             autoStart: true,
