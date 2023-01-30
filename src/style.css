@@ -514,7 +514,7 @@ pre {
 @media (max-width: 767px) {
     .AboutBox {
         margin-top: 50px;
-        margin-left: 45px;
+        margin-left: 38px;
         margin-bottom: 250px;
     }
 }
@@ -556,7 +556,7 @@ pre {
 }
 @media (max-width: 767px) {
     .AboutIntBox {
-        margin-left: 45px;
+        margin-left: 38px;
     }
 }
 
@@ -584,7 +584,7 @@ pre {
 
 @media (max-width: 810px) {
     .eduTextBox {
-        margin-left: 50px;
+        margin-left: 38px;
         width: 45%;
     }
     .eduText {
@@ -624,7 +624,7 @@ pre {
 
 @media (max-width: 810px) {
     .periodBox {
-        right: 35px;
+        right: 46px;
     }
     .Period {
         font-size: 10px;
