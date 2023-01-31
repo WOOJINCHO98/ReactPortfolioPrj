@@ -361,7 +361,6 @@ pre {
     height: 60px !important;
     text-align: center !important;
     font-size: 2.5em !important;
-    line-height: 1.5em !important;
     background: rgba(255, 255, 255, 0.972) !important;
     border-radius: 50% !important;
     transition: 0.5s !important;
@@ -410,7 +409,6 @@ pre {
         height: 30px !important;
         text-align: center !important;
         font-size: 1.3em !important;
-        line-height: 1.3em !important;
         background: rgba(255, 255, 255, 0.972) !important;
         border-radius: 50% !important;
         transition: 0.5s !important;
