@@ -7,7 +7,7 @@ import MediaGithubCal from "./MediaGithubCal";
 import AboutMe from "./AboutMe";
 import Education from "./Education";
 import Type from "./Type";
-import Waving from "./Waving";
+import Model from "./Model";
 
 import {
   AiFillGithub,
@@ -19,9 +19,9 @@ function Home() {
   return (
     <div>
       <Container fluid className="me-section">
-        
+        <Container>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={11}>
+          <Col md={10}>
             <h1 className="helloworld" >              
             <span className="wave">
                 👋🏻
@@ -30,12 +30,12 @@ function Home() {
             </h1>
           </Col>
 
-          <Col md={11}>
+          <Col md={10}>
             <div className="typeBox">
               <Type />
             </div>
           </Col>
-          <Col md={6}>
+          <Col md={7}>
             <div className="textBox">
               <p className="introText" style={{ float: "left", color: "#ebebeb"}}>개발자 조우진입니다.</p>
               <br/><br/>
@@ -53,10 +53,12 @@ function Home() {
             </div>
 
           </Col>
-          <Col md={5}>
-            <Waving />
+          <Col md={3}>
+            <div className="modelBox">
+              <Model />
+            </div>
           </Col>
-          <Col md={11}>
+          <Col md={12}>
             <div className="calendar">
               <GithubCal />
             </div>
@@ -65,6 +67,8 @@ function Home() {
             </div>
           </Col>
         </Row>
+        </Container>
+
 
         <div className="section">
         <AboutMe />
@@ -72,7 +76,9 @@ function Home() {
         <div className="section">
         <Education />
         </div>
-        </Container>
+
+      </Container>
+
     </div>
 
   );

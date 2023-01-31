@@ -6,18 +6,18 @@ function GithubCal() {
     return (
         <GitHubCalendar 
             username="WOOJINCHO98"
-            blockSize={20}
+            blockSize={17}
             blockMargin={4}
             color="#EB6200"
             fontSize={20}
-            blockRadius={9}
+            blockRadius={6}
             hideColorLegend={true}
             hideTotalCount={true}
+            className="github-cal"
             style={{
             backgroundColor: '#ebebeb',
-            boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.5)',
             borderRadius: '10px',
-            padding: '20px'
+            padding: '30px'
             }}
         />
     );

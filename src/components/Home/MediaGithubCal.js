@@ -27,14 +27,13 @@ function MediaGithubCal() {
             blockMargin={2}
             color="#EB6200"
             blockRadius={10}
+            hideMonthLabels={true}
             hideTotalCount={true}
             hideColorLegend={true}
             style={{
             margin: '0 auto',
             backgroundColor: '#ebebeb',
-            boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.5)',
-            borderRadius: '10px',
-            padding: '10px'
+            padding: '15px'
             }}
         />
     );
