@@ -6,6 +6,7 @@ import Notty from "../../Assets/Projects/Notty.png";
 import Dice from "../../Assets/Projects/Dice.png";
 import Likelion from "../../Assets/Projects/Likelion.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
+import Database from "../../Assets/Projects/Database.png";
 
 function Project() {
     const [visible, setVisible] = React.useState(false);
@@ -57,7 +58,7 @@ function Project() {
 
                     <Col md={4} className="project-box">
                         <ProjectsBox
-                            imgPath={Accty}
+                            imgPath={Database}
                             header="2022.10.14 ~ 12.16"
                             title="CGV Database Project"
                             description="CGV 영화관의 데이터베이스를 구축하고, 관리자와 사용자의 기능을 구현하였습니다. 교내의 데이터베이스 수업에서 진행했던 프로젝트입니다. 세부적인 문서화 작업으로 상당히 오랜 기간이 소요 됐던 프로젝트 입니다. 팀은 4명으로 이루어져 있었습니다. 프로젝트의 DB설계 및 기능 구현을 담당하였습니다. Oracle, C#, WinForm 을 사용하여 개발하였습니다. "

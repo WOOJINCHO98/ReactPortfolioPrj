@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.535bd69f.css",
-    "main.js": "/static/js/main.21714d9a.js",
+    "main.css": "/static/css/main.747b7bb5.css",
+    "main.js": "/static/js/main.93977d15.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/LINESeedKR-Rg.ttf": "/static/media/LINESeedKR-Rg.19963b721fb283e17554.ttf",
     "static/media/Portfolio.png": "/static/media/Portfolio.7a9bd82f7389cfe77094.png",
     "static/media/Notty.png": "/static/media/Notty.591033a2f65549fccaf9.png",
     "static/media/Accty.png": "/static/media/Accty.8d86779c98ad5e6d939c.png",
+    "static/media/Database.png": "/static/media/Database.70d902daa83eab6e791e.png",
     "static/media/Resume.pdf": "/static/media/Resume.83c1919f1c73c2a68e5c.pdf",
     "static/media/Likelion.png": "/static/media/Likelion.1f2b60a9458911451c76.png",
     "static/media/Dice.png": "/static/media/Dice.54e54b2f18498c14d124.png",
-    "static/media/pre.svg": "/static/media/pre.ebf1cfbde46045311bf0.svg",
+    "static/media/pre.svg": "/static/media/pre.6011139ec19b80d01bcf.svg",
     "index.html": "/index.html",
-    "main.535bd69f.css.map": "/static/css/main.535bd69f.css.map",
-    "main.21714d9a.js.map": "/static/js/main.21714d9a.js.map",
+    "main.747b7bb5.css.map": "/static/css/main.747b7bb5.css.map",
+    "main.93977d15.js.map": "/static/js/main.93977d15.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.535bd69f.css",
-    "static/js/main.21714d9a.js"
+    "static/css/main.747b7bb5.css",
+    "static/js/main.93977d15.js"
   ]
 }
