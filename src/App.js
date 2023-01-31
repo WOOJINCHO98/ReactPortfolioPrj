@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <Preloader load={load} />
-      <div id={load ? "no-scroll" : "scroll"}>
+      <div>
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />

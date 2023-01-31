@@ -55,6 +55,8 @@ pre {
     height: 100vh;
 }
 
+
+
 /* --------- */
 /*  Navbar */
 /* --------- */
@@ -360,7 +362,7 @@ pre {
     width: 60px !important;
     height: 60px !important;
     text-align: center !important;
-    font-size: 2.5em !important;
+    font-size: 40px !important;
     background: rgba(255, 255, 255, 0.972) !important;
     border-radius: 50% !important;
     transition: 0.5s !important;
@@ -630,8 +632,27 @@ pre {
     text-align: right;
 }
 
+@media (max-width: 1400px) {
+    .periodBox {
+        margin-left: 44.5em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .periodBox {
+        margin-left: 36em;
+    }
+}
+
+@media (max-width: 990px) {
+    .periodBox {
+        margin-left: 25em;
+    }
+}
+
 @media (max-width: 810px) {
     .periodBox {
+        margin-left: 51.5em;
         margin-top: 2em;
         right: 46px;
     }
@@ -797,20 +818,21 @@ pre {
 }
 
 .tech-icons {
+    display: table !important;
     font-size: 4.5em !important;
     margin: 15px !important;
     padding-top: 0px !important;
     padding-bottom: 15px !important;
-    opacity: 0.93 !important;
-    background-color: #ebebeb;
     border: 1.7px solid #ebebeb !important;
     vertical-align: middle !important;
     text-align: center !important;
+    opacity: 0.93 !important;
     border-radius: 5px !important;
-    display: table !important;
+    background-color: #ebebeb;
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
+    margin-bottom: 120px !important;
 }
 
 @media (max-width: 767px) {
@@ -955,6 +977,7 @@ pre {
 /* --------- */
 
 .footer {
+    position: relative;
     background-color: #1b1a2ea9;
     padding: 1em;
     padding-top: 1.5em;
@@ -966,3 +989,4 @@ pre {
     text-align: center;
     opacity: 1;
 }
+
