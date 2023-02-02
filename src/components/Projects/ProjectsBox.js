@@ -7,9 +7,8 @@ import {BsGithub} from "react-icons/bs";
 function ProjectsBox(props) {
 
     return (
-        <Card className="project-box-view">
-            <Card.Header>{props.header}</Card.Header>
-            <Card.Img variant="top" src={props.imgPath} alt="card-img"/>
+        <Card border="primary" style={{ borderRadius:"25px 25px 5px 5px", border:"none" }}className="project-box-view">
+            <Card.Header className="cardHeader">{props.header}</Card.Header>
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text
@@ -49,7 +48,11 @@ function ProjectsBox(props) {
                             </Button>
                         )
                     }
+
                 </div>
+
+                <Card.Img variant="bottom" src={props.imgPath} alt="card-img"/>
+
             </Card.Body>
         </Card>
     );

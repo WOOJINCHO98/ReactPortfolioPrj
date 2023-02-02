@@ -25,7 +25,7 @@ function MediaGithubCal() {
             transformData={selectLastHalfYear}
             blockSize={30}
             blockMargin={2}
-            color="#EB6200"
+            color="#212629"
             blockRadius={10}
             hideMonthLabels={true}
             hideTotalCount={true}

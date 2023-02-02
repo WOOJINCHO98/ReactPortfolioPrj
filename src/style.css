@@ -83,7 +83,7 @@ pre {
 .navbar-toggler span {
     
     display: block !important;
-    background-color: #ef6700 !important;
+    background-color: #1d1f21 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -362,7 +362,8 @@ pre {
     width: 60px !important;
     height: 60px !important;
     text-align: center !important;
-    font-size: 40px !important;
+    font-family: 'LINESeed' !important;
+    font-size: 2.2rem !important;
     background: rgba(255, 255, 255, 0.972) !important;
     border-radius: 50% !important;
     transition: 0.5s !important;
@@ -392,7 +393,7 @@ pre {
 .home-social-icons:hover {
     color: #ebebeb;
     box-shadow: 0 0 5px #ebebeb;
-    text-shadow: 0 0 2px #ef6700;
+    text-shadow: 0 0 2px #212629;
 }
 
 .social-icons {
@@ -402,7 +403,7 @@ pre {
 }
 
 .icon-colour {
-    color: #ef6700 !important;
+    color: #212629 !important;
 }
 
 @media (max-width: 767px) {
@@ -609,9 +610,9 @@ pre {
     text-decoration-line: none;
 }
 .a_link:hover {
-    color: black;
+    color: white;
     text-decoration: none;
-    text-decoration-line: none;
+    text-decoration-line: underline;
     cursor: pointer;
 }
 
@@ -681,50 +682,39 @@ pre {
 
 .project-box-view {
     color: #ebebeb !important;
-    background-color: #252423 !important;
+    background-color: #2e3335 !important;
     opacity: 0.95 !important;
     height: 100% !important;
     transition: all 0.5s ease 0s !important;
 }
 .project-box-view:hover {
     opacity: 1 !important;
-    transform: scale(1.02) !important;
     overflow: hidden !important;
     z-index: 1001 !important;
+    box-shadow: 0 0 1px 1.5px white;
+    
 }
 
-.project-heading {
-    color: white !important;
-    font-size: 3.6em !important;
-    font-weight: 500 !important;
-    padding: 10px !important;
-    text-align: center !important;
-    font-family: "LINESeedKR-Bd";
+.cardHeader {
+    color: rgb(232, 94, 73) !important;
+    font-size: 14px !important;
+    margin: 0.5em !important;
+    margin-bottom: 1em !important;
+    
 }
-
 .btn-primary {
-    color: black !important;
-    background-color: #ebebeb !important;
-    border-color: #ebebeb !important;
+    color: white !important;
+    background-color: #5c6065 !important;
+    border-color: #5c6065 !important;
 }
 
 .btn-primary:hover {
-    color: black !important;
-    background-color: #ef6700 !important;
-    border-color: #ef6700 !important;
+    color: white !important;
+    border-color: white !important;
 }
 .btn:focus {
     outline: none !important;
     box-shadow: none !important;
-}
-
-.project-subhead {
-    color: white !important;
-    font-size: 1.5em !important;
-    font-weight: 200 !important;
-    padding: 10px !important;
-    text-align: center !important;
-    font-family: "LINESeedKR-Bd";
 }
 
 .videoBox {
@@ -752,9 +742,10 @@ pre {
     margin-top: 1.5em;
     padding: 8px;
     color: #ebebeb;
-    background-color: #252423 !important;
+    background-color: #212629 !important;
     font-size: 1.4em;
     font-weight: 700;
+    border: none;
     border-radius: 7px;
     transition: all 0.5s ease 0s !important;
     position: absolute;
@@ -762,8 +753,9 @@ pre {
 }
 
 .showButton:hover {
-    transform: scale(1.04) !important;
+    transform: scale(1.01) !important;
     overflow: hidden !important;
+    box-shadow: 0 0 1px 1.5px white;
 }
 
 .exitButton {
@@ -780,22 +772,39 @@ pre {
 }
 
 .card-body {
-    padding: 1.5rem !important;
+    padding: 0rem !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.card-text {
-    margin-top: 15px;
+.card-title {
+    margin: 20px;
+    color: white;
+    font-size: 1em;
 }
+
+.card-text {
+    margin: 20px;
+    color:rgba(223, 223, 223, 0.777);
+    font-size: 0.9em;
+    font-family: LINESeed;
+    font-weight: 200;
+    word-break: break-all;
+}
+
+.card-img-bottom {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .buttonContainer {
     display: inline-flex;
     bottom: 0;
     z-index: 1000;
-    margin: auto;
-    padding: 30px;
+    padding: 13px;
 }
 
 /* --------- */

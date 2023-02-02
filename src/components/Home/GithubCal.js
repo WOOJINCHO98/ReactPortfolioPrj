@@ -8,7 +8,7 @@ function GithubCal() {
             username="WOOJINCHO98"
             blockSize={17}
             blockMargin={4}
-            color="#EB6200"
+            color="#212629"
             fontSize={20}
             blockRadius={6}
             hideColorLegend={true}
@@ -17,7 +17,7 @@ function GithubCal() {
             style={{
             backgroundColor: '#ebebeb',
             borderRadius: '10px',
-            padding: '30px'
+            padding: '30px',
             }}
         />
     );

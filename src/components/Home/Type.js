@@ -8,7 +8,7 @@ function Type() {
             strings: [
             "적응하는",
             "꾸준한",
-            "우상향하는",
+            "우상향 하는",
             ],
             cursor: "|",
             autoStart: true,
