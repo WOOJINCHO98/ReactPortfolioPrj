@@ -39,7 +39,7 @@ function Project() {
                             imgPath={Portfolio}
                             header="2023.01.24 ~ ing"
                             title="포트폴리오 웹사이트 (현재 사이트)"
-                            description="포트폴리오 웹사이트입니다. 개인적으로 진행한 첫 번째 React 프로젝트입니다. 위트있는 포트폴리오 사이트를 제작하기 위해서, three.js를 활용하여 자신을 표현한 3D모델을 삽입하였습니다. 또한, React-Bootstrap을 활용하여 반응형 웹사이트를 구현하였습니다. 컴포넌트 위주로 코드를 작성하여 가독성을 높이는 것에 중점을 두었습니다."
+                            description="포트폴리오 웹사이트입니다. 개인적으로 진행한 첫 번째 React 프로젝트입니다. 위트있는 포트폴리오 사이트를 제작하기 위해서 three.js를 활용하여 자신을 표현한 3D모델을 삽입하였습니다. 또한, React-Bootstrap을 활용하여 반응형 웹사이트를 구현하였습니다. 컴포넌트 위주로 코드를 작성하여 가독성을 높이는 것에 중점을 두었습니다."
                             link="https://github.com/WOOJINCHO98/ReactPortfolioPrj.git"
                             demoLink="http://woojincho@kro.kr"/>
 
