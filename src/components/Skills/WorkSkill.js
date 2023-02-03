@@ -15,20 +15,25 @@ function WorkSkill() {
                         justifyContent: "center",
                         paddingBottom: "50px"
                     }}>
-                    <Col xs={4} md={2} className="tech-icons">
+                    <Col xs={4} md={3} className="tech-icons">
                         <SiAmazonaws/>
+                        <div className="proficiency-30"></div>
                     </Col>
-                    <Col xs={4} md={2} className="tech-icons">
+                    <Col xs={4} md={3} className="tech-icons">
                         <DiVisualstudio/>
+                        <div className="proficiency-70"></div>
                     </Col>
-                    <Col xs={4} md={2} className="tech-icons">
+                    <Col xs={4} md={3} className="tech-icons">
                         <DiGithubBadge/>
+                        <div className="proficiency-50"></div>
                     </Col>
-                    <Col xs={4} md={2} className="tech-icons">
+                    <Col xs={4} md={3} className="tech-icons">
                         <SiFirebase/>
+                        <div className="proficiency-30"></div>
                     </Col>
-                    <Col xs={4} md={2} className="tech-icons">
+                    <Col xs={4} md={3} className="tech-icons">
                         <SiFigma/>
+                        <div className="proficiency-50"></div>
                     </Col>
                 </Row>
             </Container>

@@ -18,21 +18,25 @@ function TechSkill() {
                         justifyContent: "center",
                         paddingBottom: "50px"
                     }}>
-
-                    <Col xs={4} md={2} className="tech-icons">
+                    <Col xs={4} md={3} className="tech-icons">
                         <DiHtml5/>
+                        <div className="proficiency-70"></div>
                     </Col>
-                    <Col xs={4} md={2} className="tech-icons">
+                    <Col xs={4} md={3} className="tech-icons">
                         <DiCss3/>
+                        <div className="proficiency-70"></div>
                     </Col>
-                    <Col xs={4} md={2} className="tech-icons">
+                    <Col xs={4} md={3} className="tech-icons">
+                    <div className="proficiency-50"></div>
                         <DiReact/>
                     </Col>
-                    <Col xs={4} md={2} className="tech-icons">
+                    <Col xs={4} md={3} className="tech-icons">
                         <DiDjango/>
+                        <div className="proficiency-70"></div>
                     </Col>
-                    <Col xs={4} md={2} className="tech-icons">
+                    <Col xs={4} md={3} className="tech-icons">
                         <DiAndroid/>
+                        <div className="proficiency-50"></div>
                     </Col>
                 </Row>
             </Container>

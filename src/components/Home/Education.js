@@ -18,10 +18,10 @@ function Education() {
     <Col md={10}>
       <div className="eduBox">
         <div className="eduTextBox">
-          <a className="eduText a_link" href="https://www.likelion.net/" target="_blank" rel="noreferrer" >멋쟁이 사자처럼 11기 운영진 </a>
-          <a className="eduText a_link" href="https://www.likelion.net/" target="_blank" rel="noreferrer" >멋쟁이 사자처럼 10기 참여 </a>
-          <a className="eduText a_link"  href="https://www.syu.ac.kr/" target="_blank" rel="noreferrer">삼육대학교 컴퓨터공학부 재학중</a>
-          <a className="eduText a_link"  href="https://www.syu.ac.kr/" target="_blank" rel="noreferrer">삼육대학교 컴퓨터메카트로닉스공학부 메카트로닉스 전공 </a>
+          <p className="eduText" >멋쟁이사자처럼 11기 운영진 </p>
+          <p className="eduText" >멋쟁이사자처럼 10기 참여 </p>
+          <p className="eduText" >삼육대학교 컴퓨터공학부 재학중</p>
+          <p className="eduText" >삼육대학교 컴퓨터메카트로닉스공학부 메카트로닉스 전공 </p>
         </div>
 
 

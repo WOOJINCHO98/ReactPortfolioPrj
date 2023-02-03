@@ -1,14 +1,12 @@
-import React from "react";
+import {React} from "react";
 import { Container,Row,Col } from "react-bootstrap";
-
-
 import GithubCal from "./GithubCal";
 import MediaGithubCal from "./MediaGithubCal";
 import AboutMe from "./AboutMe";
 import Education from "./Education";
 import Type from "./Type";
 import Model from "./Model";
-
+import ProjectButton from "./ProjectButton";
 import {
   AiFillGithub,
   AiFillBook,
@@ -16,6 +14,9 @@ import {
 } from "react-icons/ai";
 
 function Home() {
+
+
+
   return (
     <div>
       <Container fluid className="me-section">
@@ -71,12 +72,12 @@ function Home() {
 
 
         <div className="section">
-        <AboutMe />
+          <AboutMe />
         </div>        
         <div className="section">
-        <Education />
+          <Education />
         </div>
-
+          <ProjectButton />
       </Container>
 
     </div>
