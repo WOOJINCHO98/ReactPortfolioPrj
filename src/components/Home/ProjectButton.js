@@ -16,7 +16,7 @@ function ProjectButton(props) {
       <Container fluid="fluid">
         <Row style={{ justifyContent: "center" }}>
           <Col xs={6} md={2}>
-            <Link class="projectButton" as={Link} to="/projects" onClick={scrollToTop}>
+            <Link className="projectButton" as={Link} to="/projects" onClick={scrollToTop}>
               프로젝트 보러가기
             </Link>
           </Col>
