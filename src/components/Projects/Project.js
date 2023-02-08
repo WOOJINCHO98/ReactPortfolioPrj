@@ -29,9 +29,7 @@ function Project() {
                             description="11기 신입 부원들과 함께 사용하기 위해 진행 한 프로젝트입니다. 아직 개발 중에 있으며, 2월 14일 배포를 예정하고 있습니다. 백엔드 3인, 프론트엔드 3인으로 진행하였습니다. 메인 페이지와 지원 페이지의 구현을 담당하였습니다. React를 사용하여 개발하였습니다. DRF에 HTTP 요청을 보내기 위해 axios를 사용하였습니다."
                             link="https://github.com/SYULION11th/likelionpage-front"
                             demoLink="https://syulion11th.github.io/likelionpage-front"
-                            test="demo"
-
-                            />
+                            test="demo"/>
                     </Col>
 
                     <Col md={4} className="project-box">
@@ -40,8 +38,7 @@ function Project() {
                             header="2023.01.24 ~ ing"
                             title="포트폴리오 웹사이트 (현재 사이트)"
                             description="포트폴리오 웹사이트입니다. 개인적으로 진행한 첫 번째 React 프로젝트입니다. 위트있는 포트폴리오 사이트를 제작하기 위해서 three.js를 활용하여 자신을 표현한 3D모델을 삽입하였습니다. 또한, React-Bootstrap을 활용하여 반응형 웹사이트를 구현하였습니다. 컴포넌트 위주로 코드를 작성하여 가독성을 높이는 것에 중점을 두었습니다."
-                            link="https://github.com/WOOJINCHO98/ReactPortfolioPrj.git"
-                            demoLink="http://woojincho@kro.kr"/>
+                            link="https://github.com/WOOJINCHO98/ReactPortfolioPrj.git"/>
 
                     </Col>
 
