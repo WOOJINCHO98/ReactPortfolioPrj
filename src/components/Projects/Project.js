@@ -59,7 +59,7 @@ function Project() {
                             description="액티비티 관련 운동 지수를 표현할 수 있는 안드로이드 앱입니다. 프로젝트의 팀장, 기획, 개발을 담당하였습니다. Android (Java)를 사용하여 개발하였습니다. 교내의 캡스톤 디자인 수업에서 진행했던 프로젝트입니다.
                     팀원은 총 3인으로 구성되었습니다. 수업 연계 캡스톤디자인 대회에서 우수상을 수상하였습니다."
                             link="https://github.com/woojincho98/accty"
-                            demoLink="https://appetize.io/app/qc67wp4r4wyssn2ncahhqfaloq?location=37.5368%2C127.0057&device=pixel4&osVersion=11.0&scale=90"/>
+                            demoLink="https://appetize.io/app/sxpz4ar6fswe4y7c4pu23hqrme?location=37.5368%2C127.0057&device=pixel4&osVersion=11.0&scale=90"/>
 
                         <button className="showButton" onClick={() => setVisible(true)}>VIDEO</button>
                         <div
