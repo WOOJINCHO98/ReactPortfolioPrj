@@ -66,7 +66,7 @@ function ProjectsBox(props) {
                             <Button
                                 className="btn btn-success"
                                 variant="primary"
-                                href={props.demoLink}
+                                href={props.bloglink}
                                 target="_blank"
                                 style={{
                                     margin: "3px",
