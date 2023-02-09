@@ -356,6 +356,7 @@ pre {
 
 }
 
+
 .home-social-icons {
     position: relative !important;
     display: inline-block !important;
@@ -714,7 +715,7 @@ pre {
 }
 
 .project-box {
-    padding: 50px 25px !important;
+    padding: 25px 25px !important;
     height: auto !important;
     position: relative;
 }
@@ -778,7 +779,7 @@ pre {
     width: 89%;
     top: 90%;
     left: 5.5%;
-    margin-top: 1.5em;
+    margin-top: 1.8em;
     padding: 8px;
     color: #ebebeb;
     background-color: #595d61 !important;
@@ -880,7 +881,6 @@ pre {
     background-color: #2E3335;
     box-shadow: 0 0 1px 1.5px #2E3335;
     overflow: hidden !important;
-    margin-bottom: 120px !important;
 }
 
 @media (max-width: 767px) {

@@ -114,7 +114,7 @@ function Project() {
                             header="2013.08.01"
                             title="DicePlugin"
                             description="10년 전 마인크래프트의 멀티 서버에서 사용 가능한 주사위 플러그인을 만들었습니다. 자바의 기본 문법은 구글링을 하고, 다른 유저의 플러그인을 디컴파일해 구조를 파악하는 노력을 통해 완성할 수 있었습니다. 실제로 어떤 서버에서 사용되는 모습을 확인 하였던 그때의 기쁨을 잊을 수 없습니다. 개발의 매력을 느낄 수 있었던 첫 경험이었습니다."
-                            link="https://blog.naver.com/jowoojin1998/150172099477"/>
+                            bloglink="https://blog.naver.com/jowoojin1998/150172099477"/>
                     </Col>
                 </Row>
             </Container>

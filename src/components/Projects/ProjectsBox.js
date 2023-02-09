@@ -1,13 +1,18 @@
 import {React} from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import {CgWebsite} from "react-icons/cg";
 import {BsGithub} from "react-icons/bs";
-
+import {SiBloglovin} from "react-icons/si";
+import {BsFileEarmarkPlay} from "react-icons/bs";
 function ProjectsBox(props) {
 
     return (
-        <Card border="primary" style={{ borderRadius:"25px 25px 5px 5px", border:"none" }}className="project-box-view">
+        <Card
+            border="primary"
+            style={{
+                borderRadius: "25px 25px 5px 5px",
+                border: "none"
+            }}className="project-box-view">
             <Card.Header className="cardHeader">{props.header}</Card.Header>
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
@@ -18,19 +23,26 @@ function ProjectsBox(props) {
                     {props.description}
                 </Card.Text>
                 <div className="buttonContainer">
-                    <Button
-                        className="btn btn-success "
-                        variant="primary"
-                        href={props.link}
-                        target='_blank'
-                        style={{
-                            margin: "3px",
-                            fontSize: "13px"
-                        }}>
 
-                        <BsGithub/>
-                        &nbsp; Archive
-                    </Button>
+
+                    {
+                        props.link && (
+                            
+                    <Button
+                    className="btn btn-success "
+                    variant="primary"
+                    href={props.link}
+                    target='_blank'
+                    style={{
+                        margin: "3px",
+                        fontSize: "13px"
+                    }}>
+
+                    <BsGithub/>
+                    &nbsp; Github
+                </Button>
+                        )
+                    }
 
                     {
                         props.demoLink && (
@@ -43,8 +55,25 @@ function ProjectsBox(props) {
                                     margin: "3px",
                                     fontSize: "13px"
                                 }}>
-                                <CgWebsite/>
+                                <BsFileEarmarkPlay/>
                                 &nbsp; {"Demo"}
+                            </Button>
+                        )
+                    }
+
+                    {
+                        props.bloglink && (
+                            <Button
+                                className="btn btn-success"
+                                variant="primary"
+                                href={props.demoLink}
+                                target="_blank"
+                                style={{
+                                    margin: "3px",
+                                    fontSize: "13px"
+                                }}>
+                                <SiBloglovin/>
+                                &nbsp; {"Blog"}
                             </Button>
                         )
                     }
